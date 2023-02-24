@@ -1,0 +1,442 @@
+[data-aos] {
+  --aos-bezier: cubic-bezier(.26, .52, .33, .95);
+  --aos-delay: 0ms;
+}
+[data-aos]:not(.aos-animate) {
+  visibility: hidden;
+}
+
+[aos-delay="100"] {
+  --aos-delay: 100ms;
+}
+
+[aos-delay="200"] {
+  --aos-delay: 200ms;
+}
+
+[aos-delay="300"] {
+  --aos-delay: 300ms;
+}
+
+[aos-delay="400"] {
+  --aos-delay: 400ms;
+}
+
+[aos-delay="500"] {
+  --aos-delay: 500ms;
+}
+
+[aos-delay="600"] {
+  --aos-delay: 600ms;
+}
+
+[aos-delay="700"] {
+  --aos-delay: 700ms;
+}
+
+[aos-delay="800"] {
+  --aos-delay: 800ms;
+}
+
+[aos-delay="900"] {
+  --aos-delay: 900ms;
+}
+
+[aos-delay="1000"] {
+  --aos-delay: 1000ms;
+}
+
+[aos-delay="1100"] {
+  --aos-delay: 1100ms;
+}
+
+[aos-delay="1200"] {
+  --aos-delay: 1200ms;
+}
+
+[aos-delay="1300"] {
+  --aos-delay: 1300ms;
+}
+
+[aos-delay="1400"] {
+  --aos-delay: 1400ms;
+}
+
+[aos-delay="1500"] {
+  --aos-delay: 1500ms;
+}
+
+[aos-delay="1600"] {
+  --aos-delay: 1600ms;
+}
+
+[aos-delay="1700"] {
+  --aos-delay: 1700ms;
+}
+
+[aos-delay="1800"] {
+  --aos-delay: 1800ms;
+}
+
+[aos-delay="1900"] {
+  --aos-delay: 1900ms;
+}
+
+[aos-delay="2000"] {
+  --aos-delay: 2000ms;
+}
+
+[aos-delay="2100"] {
+  --aos-delay: 2100ms;
+}
+
+[aos-delay="2200"] {
+  --aos-delay: 2200ms;
+}
+
+[aos-delay="2300"] {
+  --aos-delay: 2300ms;
+}
+
+[aos-delay="2400"] {
+  --aos-delay: 2400ms;
+}
+
+[aos-delay="2500"] {
+  --aos-delay: 2500ms;
+}
+
+[aos-delay="2600"] {
+  --aos-delay: 2600ms;
+}
+
+[aos-delay="2700"] {
+  --aos-delay: 2700ms;
+}
+
+[aos-delay="2800"] {
+  --aos-delay: 2800ms;
+}
+
+[aos-delay="2900"] {
+  --aos-delay: 2900ms;
+}
+
+[aos-delay="3000"] {
+  --aos-delay: 3000ms;
+}
+
+[aos-delay="3100"] {
+  --aos-delay: 3100ms;
+}
+
+[aos-delay="3200"] {
+  --aos-delay: 3200ms;
+}
+
+[aos-delay="3300"] {
+  --aos-delay: 3300ms;
+}
+
+[aos-delay="3400"] {
+  --aos-delay: 3400ms;
+}
+
+[aos-delay="3500"] {
+  --aos-delay: 3500ms;
+}
+
+[aos-delay="3600"] {
+  --aos-delay: 3600ms;
+}
+
+[aos-delay="3700"] {
+  --aos-delay: 3700ms;
+}
+
+[aos-delay="3800"] {
+  --aos-delay: 3800ms;
+}
+
+[aos-delay="3900"] {
+  --aos-delay: 3900ms;
+}
+
+[aos-delay="4000"] {
+  --aos-delay: 4000ms;
+}
+
+[aos-delay="4100"] {
+  --aos-delay: 4100ms;
+}
+
+[aos-delay="4200"] {
+  --aos-delay: 4200ms;
+}
+
+[aos-delay="4300"] {
+  --aos-delay: 4300ms;
+}
+
+[aos-delay="4400"] {
+  --aos-delay: 4400ms;
+}
+
+[aos-delay="4500"] {
+  --aos-delay: 4500ms;
+}
+
+[aos-delay="4600"] {
+  --aos-delay: 4600ms;
+}
+
+[aos-delay="4700"] {
+  --aos-delay: 4700ms;
+}
+
+[aos-delay="4800"] {
+  --aos-delay: 4800ms;
+}
+
+[aos-delay="4900"] {
+  --aos-delay: 4900ms;
+}
+
+[aos-delay="5000"] {
+  --aos-delay: 5000ms;
+}
+
+[aos-delay="5100"] {
+  --aos-delay: 5100ms;
+}
+
+[aos-delay="5200"] {
+  --aos-delay: 5200ms;
+}
+
+[aos-delay="5300"] {
+  --aos-delay: 5300ms;
+}
+
+[aos-delay="5400"] {
+  --aos-delay: 5400ms;
+}
+
+[aos-delay="5500"] {
+  --aos-delay: 5500ms;
+}
+
+[aos-delay="5600"] {
+  --aos-delay: 5600ms;
+}
+
+[aos-delay="5700"] {
+  --aos-delay: 5700ms;
+}
+
+[aos-delay="5800"] {
+  --aos-delay: 5800ms;
+}
+
+[aos-delay="5900"] {
+  --aos-delay: 5900ms;
+}
+
+[aos-delay="6000"] {
+  --aos-delay: 6000ms;
+}
+
+[aos-delay="6100"] {
+  --aos-delay: 6100ms;
+}
+
+[aos-delay="6200"] {
+  --aos-delay: 6200ms;
+}
+
+[aos-delay="6300"] {
+  --aos-delay: 6300ms;
+}
+
+[aos-delay="6400"] {
+  --aos-delay: 6400ms;
+}
+
+[aos-delay="6500"] {
+  --aos-delay: 6500ms;
+}
+
+[aos-delay="6600"] {
+  --aos-delay: 6600ms;
+}
+
+[aos-delay="6700"] {
+  --aos-delay: 6700ms;
+}
+
+[aos-delay="6800"] {
+  --aos-delay: 6800ms;
+}
+
+[aos-delay="6900"] {
+  --aos-delay: 6900ms;
+}
+
+[aos-delay="7000"] {
+  --aos-delay: 7000ms;
+}
+
+[aos-delay="7100"] {
+  --aos-delay: 7100ms;
+}
+
+[aos-delay="7200"] {
+  --aos-delay: 7200ms;
+}
+
+[aos-delay="7300"] {
+  --aos-delay: 7300ms;
+}
+
+[aos-delay="7400"] {
+  --aos-delay: 7400ms;
+}
+
+[aos-delay="7500"] {
+  --aos-delay: 7500ms;
+}
+
+[aos-delay="7600"] {
+  --aos-delay: 7600ms;
+}
+
+[aos-delay="7700"] {
+  --aos-delay: 7700ms;
+}
+
+[aos-delay="7800"] {
+  --aos-delay: 7800ms;
+}
+
+[aos-delay="7900"] {
+  --aos-delay: 7900ms;
+}
+
+[aos-delay="8000"] {
+  --aos-delay: 8000ms;
+}
+
+[aos-delay="8100"] {
+  --aos-delay: 8100ms;
+}
+
+[aos-delay="8200"] {
+  --aos-delay: 8200ms;
+}
+
+[aos-delay="8300"] {
+  --aos-delay: 8300ms;
+}
+
+[aos-delay="8400"] {
+  --aos-delay: 8400ms;
+}
+
+[aos-delay="8500"] {
+  --aos-delay: 8500ms;
+}
+
+[aos-delay="8600"] {
+  --aos-delay: 8600ms;
+}
+
+[aos-delay="8700"] {
+  --aos-delay: 8700ms;
+}
+
+[aos-delay="8800"] {
+  --aos-delay: 8800ms;
+}
+
+[aos-delay="8900"] {
+  --aos-delay: 8900ms;
+}
+
+[aos-delay="9000"] {
+  --aos-delay: 9000ms;
+}
+
+[aos-delay="9100"] {
+  --aos-delay: 9100ms;
+}
+
+[aos-delay="9200"] {
+  --aos-delay: 9200ms;
+}
+
+[aos-delay="9300"] {
+  --aos-delay: 9300ms;
+}
+
+[aos-delay="9400"] {
+  --aos-delay: 9400ms;
+}
+
+[aos-delay="9500"] {
+  --aos-delay: 9500ms;
+}
+
+[aos-delay="9600"] {
+  --aos-delay: 9600ms;
+}
+
+[aos-delay="9700"] {
+  --aos-delay: 9700ms;
+}
+
+[aos-delay="9800"] {
+  --aos-delay: 9800ms;
+}
+
+[aos-delay="9900"] {
+  --aos-delay: 9900ms;
+}
+
+.aos-animate:not(.splitting) {
+  animation: fade-in 0.7s var(--aos-bezier) both;
+  animation-delay: var(--aos-delay) !important;
+}
+.aos-animate.splitting .char {
+  animation: fade-in 0.7s var(--aos-bezier) both;
+  animation-delay: calc((10ms * var(--char-index)) + var(--aos-delay));
+}
+
+[data-aos=fade-in-small].aos-animate {
+  animation-name: fade-in-small;
+}
+
+[data-aos=opacity-in].aos-animate {
+  animation-name: opacity-in;
+}
+
+[data-aos=hero-opacity-in].aos-animate {
+  animation: opacity-in 2s var(--aos-bezier) both;
+}
+
+@keyframes opacity-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes fade-in-small {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,65 @@
+[data-aos] {
+    --aos-bezier: cubic-bezier(.26, .52, .33, .95);
+    --aos-delay: 0ms;
+    &:not(.aos-animate) {
+        visibility: hidden;
+    }
+}
+
+@for $i from 1 to 100 {
+    [aos-delay="#{$i}00"] {
+        --aos-delay: #{$i}00ms;
+    }
+}
+
+.aos-animate {
+    &:not(.splitting) {
+        animation: fade-in .7s var(--aos-bezier) both;
+        animation-delay: var(--aos-delay) !important;
+    }
+
+    &.splitting .char {
+        animation: fade-in .7s var(--aos-bezier) both;
+        animation-delay: calc((10ms * var(--char-index)) + var(--aos-delay));
+    }
+}
+
+[data-aos="fade-in-small"] {
+    &.aos-animate {
+        animation-name: fade-in-small;
+    }
+}
+[data-aos="opacity-in"] {
+    &.aos-animate {
+        animation-name: opacity-in;
+    }
+}
+[data-aos="hero-opacity-in"] {
+    &.aos-animate {
+        animation: opacity-in 2s var(--aos-bezier) both;
+    }
+}
+
+// .splitting {
+//     .word {
+//         overflow-y: hidden;
+//     }
+// }
+
+@keyframes opacity-in {
+    from {
+        opacity: 0;
+    }
+}
+@keyframes fade-in-small {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+}
+@keyframes fade-in {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+}
